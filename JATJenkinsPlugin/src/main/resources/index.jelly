@@ -1,0 +1,4 @@
+<?jelly escape-by-default='true'?>
+<div>
+	The Jenkins Statistical Test Analysis Tool (JAT) post-build plugin is used for collection and forwarding of Jenkins build and test data. This tool should only be used together with the JAT web application.  
+</div>

@@ -1,0 +1,344 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+
+body {
+	background: #f5f5f5;
+	font: 12px 'Arial', 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial,
+		sans-serif;
+	margin: 0;
+}
+
+.wcd {
+	width: 33%;
+	height: 40px;
+	float: left;
+}
+
+.wcd-logo {
+	font-size: 36px;
+	color: #fff;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+	color: #fff;
+	font-size: 32px;
+	font-family: 'Varela Round', sans-serif;
+	-webkit-transition: color 0.3s ease-in;
+	-moz-transition: color 0.3s ease-in;
+	x²-o-transition: color 0.3s ease-in;
+	transition: color 0.3s ease-in;
+}
+
+.wcd-logo:hover {
+	color: #q3facff;
+}
+
+.wcd-tuto {
+	font-family: 'Varela Round', sans-serif;
+	color: #fff;
+	font-size: 16px;
+	line-height: 36px;
+}
+
+.webcodo-top {
+	width: 100%;
+	height: 40px;
+	background-color: #232323
+}
+
+.clear {
+	clear: both;
+}
+
+.grid, .list {
+	border-radius: 3px;
+	width: 15px;
+	height: 15px;
+	margin-left: 10px;
+	float: left;
+	cursor: pointer;
+	padding: 5px;
+}
+
+.view-cnt {
+	width: 70px;
+	height: 30px;
+	float: right;
+	margin-right: 20px;
+}
+
+.grid {
+	background: url(../assets/grid.png) 50% no-repeat;
+}
+
+.grid:hover {
+	background: #7eb800 url(../assets/grid.png) 50% no-repeat;
+}
+
+.grid-active {
+	background: #039fd3 url(../assets/grid.png) 50% no-repeat;
+}
+
+.list {
+	background: url(../assets/list.png) 50% no-repeat;
+}
+
+.list:hover {
+	background: #7eb800 url(../assets/list.png) 50% no-repeat;
+}
+
+.list-active {
+	background: #039fd3 url(../assets/list.png) 50% no-repeat;
+}
+
+.prods-cnt {
+	width: 1100px;
+	height: auto;
+	min-height: 400px;
+	margin: 40px auto;
+	padding: 40px;
+	background-color: #fafafa;
+	border: #ccc 1px dotted;
+	overflow: auto;
+}
+
+/* Category menu Style */
+.category-menu ul {
+	padding-left: 15px;
+}
+
+.category-menu ul li {
+	list-style: none;
+	cursor: pointer;
+	float: left;
+	margin-right: 10px;
+	background-color: #039fd3;
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 13px;
+	border-radius: 3px;
+	-webkit-transition: background-color 0.3s ease-in;
+	-moz-transition: background-color 0.3s ease-in;
+	-o-transition: background-color 0.3s ease-in;
+	transition: background-color 0.3s ease-in;
+}
+
+.category-menu ul li:hover, .category-menu ul li.cat-active {
+	background: #7eb800;
+}
+
+/* Grid Style */
+.prod-box {
+	width: 300px;
+	height: 150px;
+	padding: 10px;
+	margin: 15px;
+	background-color: #FFFFFF;
+	float: left;
+	border-radius: 5px;
+}
+
+.prod-box-customer {
+	width: 190px;
+	height: 200px;
+	padding: 10px;
+	margin: 15px;
+	background-color: #fff;
+	float: left;
+}
+
+.prod-box img:first-child, .prod-box-list img:first-child {
+	width: 190px;
+	float: left;
+}
+
+.prod-box h3 a {
+	margin-left: auto;
+	margin-right: auto;
+	color: #888;
+	font: normal 16px Arial;
+}
+
+.prod-box div.plot {
+	display: none;
+}
+
+.prod-box .old {
+	margin-right: 20px;
+	color: #be0000 !important;
+	text-decoration: line-through;
+}
+
+.prod-box .price {
+	width: 60px;
+	display: inline;
+	float: left;
+	font: italic 13px georgia;
+	color: #181818;
+}
+
+/* List View Style */
+.prod-box-list {
+	height: 230px;
+	width: 500px;
+	float: left;
+	margin-bottom: 10px; 
+	padding-top: 1px; background-color : #FFFFFF;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+}
+
+h3 {
+	text-decoration: none;
+	width: 320px;
+	color: #3c2e25;
+	font: normal 18px Verdana;
+	font-weight: bold;
+}
+
+.prod-box-list table {
+	color: #000000;
+	width: 600px;
+	float: left;
+	margin: 20px 10px 10px 10px;
+	font: 14px Arial;
+	line-height: 26px;
+}
+
+background
+
+
+:
+
+ 
+
+#039fd3
+
+ 
+
+url
+
+
+(../
+img
+/bag-ico
+
+
+.png
+
+
+)
+5%
+50%
+no-repeat
+
+
+;
+-webkit-transition
+
+
+:background-color
+
+ 
+
+0
+.3s
+
+ 
+
+ease-in
+
+
+;
+-moz-transition
+
+
+:background-color
+
+ 
+
+0
+.3s
+
+ 
+
+ease-in
+
+
+;
+-o-transition
+
+
+:background-color
+
+ 
+
+0
+.3s
+
+ 
+
+ease-in
+
+
+;
+transition
+
+
+:background-color
+
+ 
+
+0
+.3s
+
+ 
+
+ease-in
+
+
+;
+}
+.prod-box-list .buy-ico:before {
+	content: "More Details";
+	line-height: 22px;
+}
+
+.prod-box-list .buy-ico:hover {
+	background-color: #7eb800;
+}
+
+.prod-box-list .old {
+	color: #be0000 !important;
+	float: right;
+	font-style: 18px;
+	text-decoration: line-through;
+}
+
+.prod-box-list .price {
+	margin-right: 10px;
+	display: block;
+	font: italic 20px georgia;
+	color: #181818;
+	margin: 7px;
+}
+
+.prod-box-list .price-cnt {
+	width: 95px;
+	height: auto;
+	float: right;
+	text-align: right;
+}
+
+/* Css Shadow Effect for the prod-box and prod-box-list div */
+.shadow {
+	-webkit-box-shadow: 0px 0px 18px rgba(50, 50, 50, 0.31);
+	-moz-box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.31);
+	box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.31);
+}
+
+span.icon {
+	color: silver;
+	text-align: right;
+	margin-top: 13px;
+	margin-right: 10px;
+}

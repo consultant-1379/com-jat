@@ -1,0 +1,122 @@
+15-07-2015 14:13:25,301 ERROR SchemaExport - HHH000389: Unsuccessful: alter table build_test_class drop foreign key FK_8dcp6lf4stbj5o32vg3p89d5k
+15-07-2015 14:13:25,302 ERROR SchemaExport - Table 'jenk.build_test_class' doesn't exist
+15-07-2015 14:13:25,304 ERROR SchemaExport - HHH000389: Unsuccessful: alter table build_test_class drop foreign key FK_fngkw1bxjhb2ebja3fgcbjoy1
+15-07-2015 14:13:25,304 ERROR SchemaExport - Table 'jenk.build_test_class' doesn't exist
+15-07-2015 14:13:25,305 ERROR SchemaExport - HHH000389: Unsuccessful: alter table job_build drop foreign key FK_d4eob43tyn01ghwtjxvwr6x8m
+15-07-2015 14:13:25,305 ERROR SchemaExport - Table 'jenk.job_build' doesn't exist
+15-07-2015 14:13:25,306 ERROR SchemaExport - HHH000389: Unsuccessful: alter table job_build drop foreign key FK_42cgbnkfo587tqt5f2u4pv0ws
+15-07-2015 14:13:25,306 ERROR SchemaExport - Table 'jenk.job_build' doesn't exist
+15-07-2015 14:13:25,307 ERROR SchemaExport - HHH000389: Unsuccessful: alter table job_job drop foreign key FK_fhp26jux717c3qxnyyi90xxf8
+15-07-2015 14:13:25,307 ERROR SchemaExport - Table 'jenk.job_job' doesn't exist
+15-07-2015 14:13:25,308 ERROR SchemaExport - HHH000389: Unsuccessful: alter table job_job drop foreign key FK_l454y2u9x7ssi4mxg15i0g5qu
+15-07-2015 14:13:25,308 ERROR SchemaExport - Table 'jenk.job_job' doesn't exist
+15-07-2015 14:13:25,308 ERROR SchemaExport - HHH000389: Unsuccessful: alter table test drop foreign key FK_1wesvdcdl3ksen5pcxah4c559
+15-07-2015 14:13:25,308 ERROR SchemaExport - Table 'jenk.test' doesn't exist
+15-07-2015 14:13:25,310 ERROR SchemaExport - HHH000389: Unsuccessful: alter table test_class_test drop foreign key FK_shnslqof8n85ou1wquki4okex
+15-07-2015 14:13:25,310 ERROR SchemaExport - Table 'jenk.test_class_test' doesn't exist
+15-07-2015 14:13:25,311 ERROR SchemaExport - HHH000389: Unsuccessful: alter table test_class_test drop foreign key FK_8whdr9thxd2herbhailevglyi
+15-07-2015 14:13:25,311 ERROR SchemaExport - Table 'jenk.test_class_test' doesn't exist
+15-07-2015 14:13:55,021 ERROR LoggerService - Build has already been processed in job
+15-07-2015 14:13:55,024 ERROR LoggerService - Failed to create build in JAT
+15-07-2015 14:14:30,492 ERROR LoggerService - Build has already been processed in job
+15-07-2015 14:14:30,496 ERROR LoggerService - Failed to create build in JAT
+15-07-2015 14:16:41,956 ERROR LoggerService - Build has already been processed in job
+15-07-2015 14:16:41,963 ERROR LoggerService - Failed to create build in JAT
+15-07-2015 14:18:24,972 ERROR GrailsExceptionResolver - FileNotFoundException occurred when processing request: [GET] /jenkins/
+C:\ProdData\COM-com_dev-LSB64-Build\testreport.json (The system cannot find the file specified). Stacktrace follows:
+java.io.FileNotFoundException: C:\ProdData\COM-com_dev-LSB64-Build\testreport.json (The system cannot find the file specified)
+	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at jatbackend.controller.JenkinsController$$EPIVZ3Ey.run(JenkinsController.groovy:51)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+15-07-2015 14:18:25,492 ERROR GrailsExceptionResolver - FileNotFoundException occurred when processing request: [POST] /jenkins/
+C:\ProdData\COM-com_dev-LSB64-Build\testreport.json (The system cannot find the file specified). Stacktrace follows:
+java.io.FileNotFoundException: C:\ProdData\COM-com_dev-LSB64-Build\testreport.json (The system cannot find the file specified)
+	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at jatbackend.controller.JenkinsController$$EPIVZ3Ey.run(JenkinsController.groovy:51)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+15-07-2015 14:23:35,649 ERROR GrailsExceptionResolver - FileNotFoundException occurred when processing request: [GET] /jenkins/
+C:\ProdData\COM-com_dev-LSB64-Build\testreport.json (The system cannot find the file specified). Stacktrace follows:
+java.io.FileNotFoundException: C:\ProdData\COM-com_dev-LSB64-Build\testreport.json (The system cannot find the file specified)
+	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at jatbackend.controller.JenkinsController$$EPIVaFm6.run(JenkinsController.groovy:51)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+15-07-2015 14:23:35,739 ERROR GrailsExceptionResolver - FileNotFoundException occurred when processing request: [POST] /jenkins/
+C:\ProdData\COM-com_dev-LSB64-Build\testreport.json (The system cannot find the file specified). Stacktrace follows:
+java.io.FileNotFoundException: C:\ProdData\COM-com_dev-LSB64-Build\testreport.json (The system cannot find the file specified)
+	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at jatbackend.controller.JenkinsController$$EPIVaFm6.run(JenkinsController.groovy:51)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+15-07-2015 14:24:09,487 ERROR LoggerService - Input to processTestReportData was null
+15-07-2015 14:24:09,530 ERROR LoggerService - Failed to create test report in JAT
+15-07-2015 14:24:09,548 ERROR LoggerService - Build has already been processed in job
+15-07-2015 14:24:09,549 ERROR LoggerService - Failed to create build in JAT
+15-07-2015 14:25:13,773 ERROR LoggerService - Input to processTestReportData was null
+15-07-2015 14:25:13,796 ERROR LoggerService - Failed to create test report in JAT
+15-07-2015 14:25:13,815 ERROR LoggerService - Build has already been processed in job
+15-07-2015 14:25:13,817 ERROR LoggerService - Failed to create build in JAT
+15-07-2015 14:26:27,184 ERROR LoggerService - Build has already been processed in job
+15-07-2015 14:26:27,189 ERROR LoggerService - Failed to create build in JAT
+15-07-2015 14:27:17,957 ERROR LoggerService - Build has already been processed in job
+15-07-2015 14:27:17,960 ERROR LoggerService - Failed to create build in JAT
+15-07-2015 14:27:44,423 ERROR LoggerService - Build has already been processed in job
+15-07-2015 14:27:44,426 ERROR LoggerService - Failed to create build in JAT
+15-07-2015 14:28:08,281 ERROR LoggerService - Build has already been processed in job
+15-07-2015 14:28:08,283 ERROR LoggerService - Failed to create build in JAT
+15-07-2015 15:14:10,386 ERROR LoggerService - Build has already been processed in job
+15-07-2015 15:14:10,388 ERROR LoggerService - Failed to create build in JAT
+15-07-2015 16:06:42,325 ERROR SchemaExport - HHH000389: Unsuccessful: alter table build_test_class drop foreign key FK_8dcp6lf4stbj5o32vg3p89d5k
+15-07-2015 16:06:42,326 ERROR SchemaExport - Table 'jatdb.build_test_class' doesn't exist
+15-07-2015 16:06:42,327 ERROR SchemaExport - HHH000389: Unsuccessful: alter table build_test_class drop foreign key FK_fngkw1bxjhb2ebja3fgcbjoy1
+15-07-2015 16:06:42,327 ERROR SchemaExport - Table 'jatdb.build_test_class' doesn't exist
+15-07-2015 16:06:42,328 ERROR SchemaExport - HHH000389: Unsuccessful: alter table job_build drop foreign key FK_d4eob43tyn01ghwtjxvwr6x8m
+15-07-2015 16:06:42,328 ERROR SchemaExport - Table 'jatdb.job_build' doesn't exist
+15-07-2015 16:06:42,328 ERROR SchemaExport - HHH000389: Unsuccessful: alter table job_build drop foreign key FK_42cgbnkfo587tqt5f2u4pv0ws
+15-07-2015 16:06:42,328 ERROR SchemaExport - Table 'jatdb.job_build' doesn't exist
+15-07-2015 16:06:42,329 ERROR SchemaExport - HHH000389: Unsuccessful: alter table job_job drop foreign key FK_fhp26jux717c3qxnyyi90xxf8
+15-07-2015 16:06:42,329 ERROR SchemaExport - Table 'jatdb.job_job' doesn't exist
+15-07-2015 16:06:42,330 ERROR SchemaExport - HHH000389: Unsuccessful: alter table job_job drop foreign key FK_l454y2u9x7ssi4mxg15i0g5qu
+15-07-2015 16:06:42,330 ERROR SchemaExport - Table 'jatdb.job_job' doesn't exist
+15-07-2015 16:06:42,330 ERROR SchemaExport - HHH000389: Unsuccessful: alter table test drop foreign key FK_1wesvdcdl3ksen5pcxah4c559
+15-07-2015 16:06:42,330 ERROR SchemaExport - Table 'jatdb.test' doesn't exist
+15-07-2015 16:06:42,331 ERROR SchemaExport - HHH000389: Unsuccessful: alter table test_class_test drop foreign key FK_shnslqof8n85ou1wquki4okex
+15-07-2015 16:06:42,331 ERROR SchemaExport - Table 'jatdb.test_class_test' doesn't exist
+15-07-2015 16:06:42,332 ERROR SchemaExport - HHH000389: Unsuccessful: alter table test_class_test drop foreign key FK_8whdr9thxd2herbhailevglyi
+15-07-2015 16:06:42,332 ERROR SchemaExport - Table 'jatdb.test_class_test' doesn't exist
+15-07-2015 16:10:15,473 ERROR LoggerService - Input to processJobDataService is null
+15-07-2015 16:10:15,481 ERROR LoggerService - Failed to create job in JAT
+15-07-2015 16:10:17,408 ERROR LoggerService - Input to processJobDataService is null
+15-07-2015 16:10:17,409 ERROR LoggerService - Failed to create job in JAT
+15-07-2015 16:36:58,121 ERROR SchemaExport - HHH000389: Unsuccessful: alter table build_test_class drop foreign key FK_8dcp6lf4stbj5o32vg3p89d5k
+15-07-2015 16:36:58,121 ERROR SchemaExport - Table 'jatdb.build_test_class' doesn't exist
+15-07-2015 16:36:58,122 ERROR SchemaExport - HHH000389: Unsuccessful: alter table build_test_class drop foreign key FK_fngkw1bxjhb2ebja3fgcbjoy1
+15-07-2015 16:36:58,122 ERROR SchemaExport - Table 'jatdb.build_test_class' doesn't exist
+15-07-2015 16:36:58,124 ERROR SchemaExport - HHH000389: Unsuccessful: alter table job_build drop foreign key FK_d4eob43tyn01ghwtjxvwr6x8m
+15-07-2015 16:36:58,124 ERROR SchemaExport - Table 'jatdb.job_build' doesn't exist
+15-07-2015 16:36:58,125 ERROR SchemaExport - HHH000389: Unsuccessful: alter table job_build drop foreign key FK_42cgbnkfo587tqt5f2u4pv0ws
+15-07-2015 16:36:58,125 ERROR SchemaExport - Table 'jatdb.job_build' doesn't exist
+15-07-2015 16:36:58,126 ERROR SchemaExport - HHH000389: Unsuccessful: alter table job_job drop foreign key FK_fhp26jux717c3qxnyyi90xxf8
+15-07-2015 16:36:58,126 ERROR SchemaExport - Table 'jatdb.job_job' doesn't exist
+15-07-2015 16:36:58,126 ERROR SchemaExport - HHH000389: Unsuccessful: alter table job_job drop foreign key FK_l454y2u9x7ssi4mxg15i0g5qu
+15-07-2015 16:36:58,126 ERROR SchemaExport - Table 'jatdb.job_job' doesn't exist
+15-07-2015 16:36:58,127 ERROR SchemaExport - HHH000389: Unsuccessful: alter table test drop foreign key FK_1wesvdcdl3ksen5pcxah4c559
+15-07-2015 16:36:58,127 ERROR SchemaExport - Table 'jatdb.test' doesn't exist
+15-07-2015 16:36:58,127 ERROR SchemaExport - HHH000389: Unsuccessful: alter table test_class_test drop foreign key FK_shnslqof8n85ou1wquki4okex
+15-07-2015 16:36:58,128 ERROR SchemaExport - Table 'jatdb.test_class_test' doesn't exist
+15-07-2015 16:36:58,128 ERROR SchemaExport - HHH000389: Unsuccessful: alter table test_class_test drop foreign key FK_8whdr9thxd2herbhailevglyi
+15-07-2015 16:36:58,128 ERROR SchemaExport - Table 'jatdb.test_class_test' doesn't exist

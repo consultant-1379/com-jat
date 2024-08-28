@@ -1,0 +1,55 @@
+ul.menu {
+	font-size:18px;
+}
+@font-face {
+    font-family: ericssonfont;
+    src: url(ericssonfont.ttf);
+}
+
+.navbar .brand { 
+    max-height: 40px;
+    max-width: 30%; 
+    overflow: visible;
+    padding-top: 0;
+    padding-bottom: 0; 
+}
+.test-success {
+	background-color: #b9ff77; 
+	cursor: pointer;
+	position: relative 
+
+}
+.test-success:hover {
+    background-color: #4cf432;
+}
+
+.test-failed {
+	background-color: #ff5757;
+	cursor: pointer;
+	position: relative 
+	
+}
+.test-failed:hover {
+    background-color: #f43232;
+}
+
+.hideByDefault{
+    display: none;
+}
+
+.extra-row {
+    background-color: #aea !important;
+}
+
+#show-name {
+  display: none;
+}
+
+#show-full-name:hover #show-name {
+  display: block;
+}
+
+.active-view {
+	background-color: red; 
+	
+}
